@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+.tarjeta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+  }
+.tarjeta img {
+    height: 30%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+.tarjeta h2 {
+    font-size: 1.5em;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+.tarjeta h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1em;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+.tarjeta .precio {
+    position: absolute;
+    margin-top: 20px;
+    color: rgb(107, 179, 0);
+    font-family: 'Proxima Nova', sans-serif;
+    bottom: 60px;
+  }
+.tarjeta .cantidad {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    bottom: 10px;
+    border-radius: 50px;
+    border: black 1px solid;
+  }
+.tarjeta .cantidad h4 {
+    font-family: 'Proxima Nova', sans-serif;
+    color: gray;
+  }
+.tarjeta .cantidad__contador {
+    width: 40%;
+    background-color:  white;
+    height: 100%;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+  }
+.tarjeta .cantidad__contador:hover {
+    background-color: rgb(250, 245, 255);
+  }
